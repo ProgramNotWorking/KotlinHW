@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".task3.FindIntInListActivity"
+            android:name=".task3.ThirdTaskActivity"
             android:exported="true">
         </activity>
     </application>

@@ -5,13 +5,13 @@ fun main() {
     val intList = listOf<Int?>(
         1, 10, 3, 2, 5, 6, 8, 4, 7, 9
     )
-    val nullableList = listOf<Int?>(
+    val listWithNulls = listOf<Int?>(
         1, 10, null, 2, 5, null, 8, 4, null, 9
     )
     val emptyList: List<Int?> = emptyList()
 
     println(intList.shakerSort())
-    println(nullableList.shakerSort())
+    println(listWithNulls.shakerSort())
     println(emptyList.shakerSort())
 
 }

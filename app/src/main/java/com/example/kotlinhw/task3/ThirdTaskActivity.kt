@@ -5,7 +5,7 @@ import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.example.kotlinhw.databinding.ActivityTask3Binding
 
-class FindIntInListActivity : AppCompatActivity() {
+class ThirdTaskActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityTask3Binding
     private val list: List<Any> = listOf(
